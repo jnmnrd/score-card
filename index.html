@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div id="home-container">
+                <h3 class="color-gray">HOME</h3>
+                <div class="points-box-container">
+                    <h1 id="home-score">0</h1>
+                </div>
+                <div class="button-container">
+                    <button id="btn-primary" onclick="homeAddOnePoint()">+ 1</button>
+                    <button id="btn-primary" onclick="homeAddTwoPoints()">+ 2</button>
+                    <button id="btn-primary" onclick="homeAddThreePoints()">+ 3</button>
+                </div>
+            </div>
+            <div class="guest-container">
+                <h3 class="color-gray">GUEST</h3>
+                <div class="points-box-container">
+                    <h1 id="guest-score">0</h1>
+                </div>
+                <div id="button-container">
+                    <button id="btn-primary" onclick="guestAddOnePoint()">+ 1</button>
+                    <button id="btn-primary" onclick="guestAddTwoPoints()">+ 2</button>
+                    <button id="btn-primary" onclick="guestAddThreePoints()">+ 3</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

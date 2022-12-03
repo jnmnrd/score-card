@@ -1,0 +1,40 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(64,195,116);
+    background: linear-gradient(90deg, rgba(64,195,116,1) 0%, rgba(118,195,64,1) 100%);
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    color: #000422;
+    font-size: 56px;
+}
+h3 {
+    color: #000422;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.color-gray {
+    color: #232422;
+}
+
+.container {
+    background-color: #ffffff;;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    justify-content: space-around;
+    margin: 85px auto;
+    padding: 45px 0;
+    width: 575px;
+    border-radius: 8px;
+}
+
+#btn-primary {
+    background-color: #070D12;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 24px 16px;
+    border: none;
+    border-radius: 4px;
+}
